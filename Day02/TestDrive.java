@@ -21,6 +21,10 @@ public class TestDrive {
 
 		// sangHoon 비트코인을 생각한다
 		sangHoon.think("비트코인");
+		
+		// 12
+		int result3 = sangHoon.add(5, 7);
+		System.out.println(result3);
 	}	
 
 }

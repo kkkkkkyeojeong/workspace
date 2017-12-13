@@ -1,4 +1,5 @@
 class Person {
+	// 속성
 	int headSize;   // 머리크기 (숫자)
 	int height;     // 키       (숫자)
 	String gender;  // 성별     (문자)
@@ -6,7 +7,7 @@ class Person {
 	String name;    // 이름     (문자)
 	String family;  // 가족     (문자)
 
-	// 생성자 (속성 값 초기화)
+	// 생성자(Constructer) (속성 값 초기화)
 	public Person(int headSize, int height, String gender, int age, String name, String family){
 
 		this.headSize = headSize;
@@ -47,4 +48,8 @@ class Person {
 		System.out.println(this.name + "은(는) " + how + "을(를) 생각한다");
 	}
 
+	// 숫자 두개 입력받아 계산 
+	int add(int a, int b) {
+		return a + b;
+	}
 }

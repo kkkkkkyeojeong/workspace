@@ -1,4 +1,6 @@
 public class TestDrive {
+	
+	// 메인메서드 
 	public static void main(String[] args){
 		
 		Student A = new Student(2017111, "홍길동", 20, "영문학과", 1);

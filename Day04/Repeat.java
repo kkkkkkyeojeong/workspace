@@ -5,7 +5,7 @@ public class Repeat {
 			System.out.println("Hello World");
 		}
 			
-		// args ¹è¿­ ³»¿ë Ãâ·Â
+		// args ë°°ì—´ ë‚´ìš© ì¶œë ¥
 		for (int i = 0; i < args.length; i++) {
 			System.out.println(args[i]);
 		}

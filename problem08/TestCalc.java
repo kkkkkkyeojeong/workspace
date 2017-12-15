@@ -16,7 +16,6 @@ public class TestCalc {
 	int result4 = A.div(10, 5);
 	System.out.println(result4);
 
-
 	}
 
 }

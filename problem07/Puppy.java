@@ -19,8 +19,7 @@ class Puppy {
 					return true;
 				}
 					
-				return false;
-					
+					return false;	
 			}
 				return false;
 		}

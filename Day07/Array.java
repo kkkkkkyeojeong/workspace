@@ -92,18 +92,19 @@ public class Array {
 		for (int a = 0; a <fruitArray.length; a++) {
 			for (int b = 0; b < fruitArray[a].length; b++) {
 				if ( b == 0 ) {
-					System.out.println("이름: " + fruitArray[a][b]);
+					System.out.print("이름: ");
 				}
-				if ( b == 1 ) {
-					System.out.println("품질: " + fruitArray[a][b]);
+				else if ( b == 1 ) {
+					System.out.print("품질: ");
 
 				}
-				if ( b == 2 ) {
-					System.out.println("개수: " + fruitArray[a][b]);
+				else if ( b == 2 ) {
+					System.out.print("개수: ");
 				}
-				if ( b == 3 ) {
-					System.out.println("맛: " + fruitArray[a][b]);
+				else if ( b == 3 ) {
+					System.out.print("맛: ");
 				}
+					System.out.println(fruitArray[a][b]);
 				
 			}
 		
